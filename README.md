@@ -8,12 +8,12 @@ The main goal for building this workflow (and models as a result) is to ask a sp
 adve_vsny_ss models are not released publicly. One the code and workflow is released to help promote/build similar models for similar use cases. Demo outputs are being shared to inspire the potential of fine tuning for these use cases.
 
 ## Index
-* [Sample Responses](#sample)
+* [Sample Responses](#sample-responses-from-some-finetuned-models-of-different-sizes)
 * [Updates](#updates)
 * [Features](#features)
 * [Installation](#installation)
-* [Usage](#usage)
-* [Workflow: Build your model](#workflow)
+* [Usage](#usage-python)
+* [Workflow: Build your model](#workflow-build-your-model)
 * [TODO](#todo)
 
 ## Sample Responses from some finetuned models of different sizes
