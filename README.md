@@ -58,20 +58,20 @@ Swami: the first thing that comes up in your mind when you ask this question, wh
 ## Updates
 **2023.10.04**
 - First release quick notes
-  - scalable download and transcription of youtube videos (and metadata) list, creation of question-answer training dataset for llms, creation and testing of finetuned models
-    - testing based off askswami qa videos format only
+  - Scalable download and transcription of youtube videos (and metadata) list, creation of question-answer training dataset for llms, creation and testing of finetuned models
+    - Testing based off askswami qa videos format only
   
 
 ## Features
-- automatic downloads a set of youtube askswami qa videos using their urls (and corresponding video descriptions) using [pytube](https://github.com/pytube/pytube) - a lightweight, dependency-free python library (and command-line utility) for downloading youtube videos. there were some newer versions that needed to be installed in conda enviroment to help work with newer youtube api.
-  - parallel transcription of videos with [whisperx](https://github.com/m-bain/whisperx) - a fast automatic speech recognition with word-level timestamps and multi-speaker diarization.
-  - creation of a question-answer dataset through a series of video description and video transcriptions transformations
-  - create finetuned [llama-2-7b-chat-hf](https://huggingface.co/blog/llama2#demo) models. note that to download and use meta's llama models, both huggingface and meta's forms need to be filled out. users are provided access to the repository once both forms are filled after few hours. the model size (7b, 13b or 70b) that can be finetuned depends upon the gpu power, quantization techniques, etc. with permissions from youtube video owners, one can relesae the dataset on public forums (huggingface, etc.)
-  - deploy and query finetuned models on/using one or multiple platforms/frameworks (e.g., [huggingface](https://huggingface.co/models), [oobabooga](https://github.com/oobabooga/text-generation-webui))
+- Automatic downloads a set of youtube askswami qa videos using their urls (and corresponding video descriptions) using [pytube](https://github.com/pytube/pytube) - a lightweight, dependency-free python library (and command-line utility) for downloading youtube videos. there were some newer versions that needed to be installed in conda enviroment to help work with newer youtube api.
+  - Parallel transcription of videos with [whisperx](https://github.com/m-bain/whisperx) - a fast automatic speech recognition with word-level timestamps and multi-speaker diarization.
+  - Creation of a question-answer dataset through a series of video description and video transcriptions transformations
+  - Create finetuned [llama-2-7b-chat-hf](https://huggingface.co/blog/llama2#demo) models. note that to download and use meta's llama models, both huggingface and meta's forms need to be filled out. users are provided access to the repository once both forms are filled after few hours. the model size (7b, 13b or 70b) that can be finetuned depends upon the gpu power, quantization techniques, etc. with permissions from youtube video owners, one can relesae the dataset on public forums (huggingface, etc.)
+  - Deploy and query finetuned models on/using one or multiple platforms/frameworks (e.g., [huggingface](https://huggingface.co/models), [oobabooga](https://github.com/oobabooga/text-generation-webui))
 
 ## Installation
 
-these installation and usage instructions have been tested on a dual-4090 amd-workstation (powered by 5975wx cpu)
+These installation and usage instructions have been tested on a dual-4090 amd-workstation (powered by 5975wx cpu)
 
 #### Setup conda environment
 ```bash
@@ -115,69 +115,69 @@ conda_activate_path: <path_to_miniconda3>/bin/activate
 ```
 
 #### Models use setup
-- fill meta llama2 downlaod and usage forms on huggingface and meta's website to download huggingface models
-- set up huggingface [uat (user access token)](https://huggingface.co/settings/tokens)
+- Fill meta llama2 downlaod and usage forms on huggingface and meta's website to download huggingface models
+- Set up huggingface [uat (user access token)](https://huggingface.co/settings/tokens)
 
 ## Usage (python)
-the finetuned model can be passed the list of questions that would be answered sequentially by the model uploaded. the python script usage is described below in workflow section's last step.
+The finetuned model can be passed the list of questions that would be answered sequentially by the model uploaded. the python script usage is described below in workflow section's last step.
 ## Workflow: build your model
 
-the adve_vsny_ss model(s) are finetuned meta's llama2 chat model based off huggingface's versions of llama2.
+The adve_vsny_ss model(s) are finetuned meta's llama2 chat model based off huggingface's versions of llama2.
 
-1. follow installation instructions to setup the environment
+1. Follow installation instructions to setup the environment
 
-2. set environment var
+2. Set environment var
 ```bash
 export pythonpath=.:$pythonpath
 ```
 
-4. download youtube videos data and metadata
+3. Download youtube videos data and metadata
   - in configs/config.yaml inputdir, create a file which contains urls of youtube to be downloaded (yturls.txt)
 ```bash
 python ./datamgmt/yt_download.py --files_with_urls yturls.txt
 ```
 
-5. convert youtube mp4 files to mp3 and extract audio using whisperx (genreates audio.vtt) in parallel on all gpus
+4. Convert youtube mp4 files to mp3 and extract audio using whisperx (genreates audio.vtt) in parallel on all gpus
 ```bash
 python ./datamgmt/run_parallel_whisperx_on_all_gpus.py
 ```
 
-6. read each audio.vtt above and consolidate continuous same speaker's timestamps into a single timestamp for that speaker
+5. Read each audio.vtt above and consolidate continuous same speaker's timestamps into a single timestamp for that speaker
 ```bash
 python ./datamgmt/consolidate_audiovtt_speakers.vtt
 ```
 
-7. extract questions from description.txt downloaded along with youtube videos. luckily those description files have questions with timestamps. despite a complex flow, one (of 39) video's question extraction didnt work. there are some heuristics - e.g., qa begins in sentence after the work timestamp (or time-stamp); multi-line questions are collated, questions with parts with numbering like (a), (b), etc. are separated with same timestamp
+6. Extract questions from description.txt downloaded along with youtube videos. luckily those description files have questions with timestamps. despite a complex flow, one (of 39) video's question extraction didnt work. there are some heuristics - e.g., qa begins in sentence after the work timestamp (or time-stamp); multi-line questions are collated, questions with parts with numbering like (a), (b), etc. are separated with same timestamp
    these are the fields ['starttime', 'endtime', 'starttime_sec', 'endtime_sec', 'speaker', 'text', 'text_length', 'text_type']
 ```bash
 python ./datamgmt/extract_questions_timestamps_from_description.py
 ```
 
-8. generate csv of transcripts from consolidate_audiovtt_speakers with these fields ['starttime', 'endtime', 'starttime_sec', 'endtime_sec', 'speaker', 'text', 'text_length', 'text_type']
+7. Generate csv of transcripts from consolidate_audiovtt_speakers with these fields ['starttime', 'endtime', 'starttime_sec', 'endtime_sec', 'speaker', 'text', 'text_length', 'text_type']
 ```bash
 python ./datamgmt/extract_speakers_transcripts_timestamps_from_vtt.py
 ```
 
-9. for now, merge questions/answers around main speakers' around the timestamp from description question file
+8. For now, merge questions/answers around main speakers' around the timestamp from description question file
 ```bash
 python ./datamgmt/create_question_answer_dataset.py
 ```
 
-10. create finetuned model
-- sample model creation for 100 steps using special tokenizer padding "<pad>"
+9. Create finetuned model
+- Sample model creation for 100 steps using special tokenizer padding "<pad>"
 ```bash
 python ./train/sft_wrapper.py --output_dir ./outputdir/avde_fintun_llama2/100_steps_pad --hf_token <your_hf_token> --max_steps 100
 ```
 
-11. execute finetuned model
-- sample execution
+10. Execute finetuned model
+- Sample execution
 ```bash
 python ./inference/model_inference.py --model_to_load avde_hf_llama2_13b_chat_100steps_pad --modelinferencingclass createtextresponses
 ```
-- different inferencing procedures can be creating using same framework for model_inference.py. the framework can be extended by defining input data format, input data processing, exact input inferencing action, output data processing, etc.
+- Different inferencing procedures can be creating using same framework for model_inference.py. the framework can be extended by defining input data format, input data processing, exact input inferencing action, output data processing, etc.
 
 ## Todo
-- [x] initial readme.md writeup
+- [x] Initial readme.md writeup
 - [ ] Pluggable data transformations
 - [ ] Fix repietition of model's response towards the end
 - [ ] Fix bug with ./inference/model_inference.py. as per current testing, the private version of code is producing results fine, but final finetuned version needs further testing.
