@@ -1,6 +1,6 @@
 # A simple extensible workflow for creating LLM training dataset and finetuning LLMs from YouTube QA style videos
 
-This is an attempt to build a workflow to build a finetuned LLM (Llama2 currently) model from answering questions on a specific topic based on YouTube question/answers videos on that topic. There are four parts to generating/testing model
+This is an attempt to build a workflow to build a finetuned LLM ([Meta's Llama2](https://ai.meta.com/llama/) currently) model from answering questions on a specific topic based on YouTube question/answers videos on that topic. There are four parts to generating/testing model
 
 1. Bulk download and bulk transcription using Audio-To-Text transformation
 2. Transcription transformation to generate training LLM training dataset
