@@ -11,9 +11,9 @@ The current release's workflow's data management (tranformations) is built for a
 
 #### Testing the workflow
 
-_To validate the workflow, it is currently tested for answering questions on the topic of Advaita Vedanta in the style of [Swami Sarvapriyananda](https://en.wikipedia.org/wiki/Swami_Sarvapriyananda), a Hindu monk belonging to the Ramakrishna Order, and a well-known speaker on Vedanta and his talks are extremely popular worldwide. Many of his talks delivered at various forums are available on YouTube. The first version of model creation code is based on [AskSwami Q&A | Swami Sarvapriyananda](https://www.youtube.com/playlist?list=PLDqahtm2vA70VohJ__IobJSOGFJ2SdaRO) Question and Answer sessions led by Swami Sarvapriyananda at the Vedanta Society of New York.
+_To validate the workflow, it is currently tested for answering questions on the topic of Advaita Vedanta in the style of [Swami Sarvapriyananda](https://en.wikipedia.org/wiki/Swami_Sarvapriyananda), a Hindu monk belonging to the Ramakrishna Order, and a well-known speaker on Vedanta and his talks are extremely popular worldwide. Many of his talks delivered at various forums are available on YouTube. The first version of model creation code is based on [AskSwami Q&A | Swami Sarvapriyananda](https://www.youtube.com/playlist?list=PLDqahtm2vA70VohJ__IobJSOGFJ2SdaRO) Question and Answer sessions led by Swami Sarvapriyananda at the Vedanta Society of New York._
 
-The main goal for this testing/building this workflow (and models as a result) is to ask a spiritual question to the model, that can then respond a well founded answer in the tone and style of Swami Sarvapriyananda (as is the case when a question is posed to Swami)._
+_The main goal for this testing/building this workflow (and models as a result) is to ask a spiritual question to the model, that can then respond a well founded answer in the tone and style of Swami Sarvapriyananda (as is the case when a question is posed to Swami)._
 
 ## Disclaimer
 adve_vsny_ss models are not released publicly. Only the code and workflow is released to help promote/build similar models for similar use cases. Demo outputs are being shared to inspire the potential of fine tuning for these use cases.
