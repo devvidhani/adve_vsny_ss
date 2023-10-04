@@ -1,11 +1,22 @@
-# adve_vsny_ss: Advaita Vedanta : Vedanta Society of New York : Swami Sarvapriyananda Models
+# adve_vsny_ss: A simple extensible workflow for creating LLM training dataset and finetuning LLMs from YouTube QA videos
 
-This is an attempt to build a workflow to build a finetuned Llama2 model for answering questions on the topic of Advaita Vedanta in the style of Swami Sarvapriyananda. [Swami Sarvapriyananda](https://en.wikipedia.org/wiki/Swami_Sarvapriyananda) is a Hindu monk belonging to the Ramakrishna Order. Since January 2017, he is the current resident Swami and head of the [Vedanta Society of New York](https://www.vedantany.org). He is a well-known speaker on Vedanta and his talks are extremely popular worldwide. Many of his talks delivered at various forums are available on YouTube. The first version of model creation code is based on [AskSwami Q&A | Swami Sarvapriyananda](https://www.youtube.com/playlist?list=PLDqahtm2vA70VohJ__IobJSOGFJ2SdaRO) Question and Answer sessions led by Swami Sarvapriyananda at the Vedanta Society of New York.
+This is an attempt to build a workflow to build a finetuned LLM (Llama2 currently) model from answering questions on a specific topic based on YouTube question/answers videos on that topic. There are four parts to generating/testing model
 
-The main goal for building this workflow (and models as a result) is to ask a spiritual question to the model, that can then respond a well founded answer in the tone and style of Swami Sarvapriyananda (as is the case when a question is posed to Swami).
+1. Bulk download and bulk transcription using Audio-To-Text transformation
+2. Transcription transformation to generate training LLM training dataset
+3. Finetune on specific base LLM
+4. Deploy finetuned model
+
+The current release's workflow's data management (tranformations) is built for a specific use case. It would be simplified for generic plugins in next releases
+
+#### Testing the workflow
+
+To validat the workflow, it is currently tested for answering questions on the topic of Advaita Vedanta in the style of [Swami Sarvapriyananda](https://en.wikipedia.org/wiki/Swami_Sarvapriyananda), a Hindu monk belonging to the Ramakrishna Order, and a well-known speaker on Vedanta and his talks are extremely popular worldwide. Many of his talks delivered at various forums are available on YouTube. The first version of model creation code is based on [AskSwami Q&A | Swami Sarvapriyananda](https://www.youtube.com/playlist?list=PLDqahtm2vA70VohJ__IobJSOGFJ2SdaRO) Question and Answer sessions led by Swami Sarvapriyananda at the Vedanta Society of New York.
+
+The main goal for this testing/building this workflow (and models as a result) is to ask a spiritual question to the model, that can then respond a well founded answer in the tone and style of Swami Sarvapriyananda (as is the case when a question is posed to Swami).
 
 ## Disclaimer
-adve_vsny_ss models are not released publicly. One the code and workflow is released to help promote/build similar models for similar use cases. Demo outputs are being shared to inspire the potential of fine tuning for these use cases.
+adve_vsny_ss models are not released publicly. Only the code and workflow is released to help promote/build similar models for similar use cases. Demo outputs are being shared to inspire the potential of fine tuning for these use cases.
 
 ## Index
 * [Sample Responses](#sample-responses-from-some-finetuned-models-of-different-sizes)
@@ -17,39 +28,38 @@ adve_vsny_ss models are not released publicly. One the code and workflow is rele
 * [TODO](#todo)
 
 ## Sample Responses from some finetuned models of different sizes
-#### Question: What are four yogas for self-realization?
+
 <details>
   <summary>
-    Finetuned Model Answer
+    Sample Question 1 and Model's Answer
   </summary>
+Question: What are four yogas for self-realization? 
 Swami: so, what is the path of spirituality?. the path of spirituality.. it's not just one way.. there are many ways.. but they all lead to that one goal which we have been talking about.. that's why i said earlier, there may be different paths but only one destination.. and those paths are called yogas.. four yogas.. they are called yogas because they bring you closer to god or brahman.. now, these four yogas are very interesting and beautifully described in the gita.. first one is bhakti yoga.. devotion.. you love god.. you want to know more about god.. you feel an attraction towards god.. you pray to god.. you worship god.. this is bhakti yoga.. second one is jnana yoga.. knowledge.. you want to know who am i?. who is this universe?. how did it come into being?. what is my relationship with the universe?. these questions will take me onwards to knowing myself as brahman.. third one is raja yoga.. meditation.. when you sit down quietly and try to focus your mind upon something like om or aum or any other mantra or even silence itself.. then you can go deeper and deeper within yourself.. into the depths of your own consciousness.. and when you do so, you begin to experience higher states of consciousness.. and then finally, the fourth one is karma yoga.. action.. service.. selfless service.. not doing anything for yourself.. doing things for others.. helping people around you.. serving them.. all of these are yogas.. they are paths leading us to our true nature.. to realize ourselves as satchidananda.. existence, consciousness, bliss.. we are that already.. but we don't know it.. we think we are limited.. we are not aware of our full potential.. so we need to follow some methodology to become aware of our full potential.. that's why we call them yogas.. they help us to become aware of our full potential.. thank you."
 </details>
 
-#### question: what is benefit of karma yoga?
 <details>
   <summary>
-    Finetuned Model Answer
+    Sample Question 2 and Model's Answer
   </summary>
-swami: so, what's the advantage of doing karma yoga? the first thing that comes to mind is you get good karma and bad karma gets wiped out. that's not true. you don't have to do anything for your own good or bad karma. it will come automatically. whatever you are going to experience in this life, whatever you deserve, you will get it. and if you think i am doing something good so i must be getting some reward. no, no, no. if you are doing something good then you are fulfilling your duty. you are supposed to do it. but if you are thinking i am doing something good so i must be getting some reward. then you are actually doing harm because now you are trying to get a reward instead of just doing your duty. now you are trying to earn merits. earning merits means you want more than what you already deserve. so you are trying to earn more than what you deserve. this desire for merit is called punya bhanga. punya means merit. bhanga means breakage. so breaking through the merit. merit itself is fine but wanting more than what you deserve is like greed. greed for merit. desire for merit. so when you start doing things with an eye on the reward, you are actually causing yourself harm. because you are creating a new desire which was not there before. when you were doing your duty earlier, you didn't feel any need for a reward. now you are feeling a need for a reward. so you are creating a new desire. new desires create new problems. old desires continue to cause problems. so you are creating new problems for yourself. not only that, you are also making your spiritual progress slower. why? because you are still stuck in the same desire. you wanted to do good deeds to get a reward. instead of being free from all desires, you are still attached to one particular desire. so you are still stuck in samsara. samsara means the cycle of birth and death. in hinduism we call it samsara chakra. cycle of birth and death. we keep coming back into this world again and again until we become enlightened. until we realize our real nature as brahman. until we realize that i am not this body-mind personality. i am pure consciousness. until we realize that, we are trapped in samsara. trapped in the cycle of birth and death. so you are still trapped in samsara. stuck in samsara. how can you escape from samsara? by becoming free from all desires. all desires mean all desires. good desires, bad desires, neutral desires. all desires. becoming free from all desires. freedom from all desires is called nirvana. nirvana means freedom from all desires. so how does one achieve freedom from all desires? one way is by practicing non-dual meditation. dhyanam. turiyatita. non-dual meditation. another way is by performing selfless service. karma yoga. selfless action. service done without expectation of reward. without attachment to result. without attachment to outcome. just doing it for its own sake. for the joy of serving others. serving others without expecting anything in return. even if you expect nothing in return, still you are benefiting. you are helping others. helping others benefits you too. benefitting others helps you too. so you are benefited twice over. once by helping others and once by experiencing the joy of helping others. joy of helping others. there is another level beyond that. beyond the joy of helping others. there is the bliss of helping others. ananda of helping others. bliss of helping others. that's the highest level of karma yoga. where you are not even interested in the joy of helping others. you are not even interested in the satisfaction of having helped others. you are not even interested in the happiness of helping others. you are simply interested in helping others. period. end of story. nothing else matters. only helping others. that's the ultimate goal of karma yoga. ultimately, why should you help others? because they are suffering. they are unhappy. they are struggling. they are crying. they are hungry. they are thirsty. they are sick. they are dying. somebody has to help them. you are here. you are capable of helping them. you are responsible for helping them. you owe it to them. you cannot say i am not interested in helping others. i am not interested in their sufferings. i am not interested in their pain.
+Question: what is benefit of karma yoga?
+Swami: so, what's the advantage of doing karma yoga? the first thing that comes to mind is you get good karma and bad karma gets wiped out. that's not true. you don't have to do anything for your own good or bad karma. it will come automatically. whatever you are going to experience in this life, whatever you deserve, you will get it. and if you think i am doing something good so i must be getting some reward. no, no, no. if you are doing something good then you are fulfilling your duty. you are supposed to do it. but if you are thinking i am doing something good so i must be getting some reward. then you are actually doing harm because now you are trying to get a reward instead of just doing your duty. now you are trying to earn merits. earning merits means you want more than what you already deserve. so you are trying to earn more than what you deserve. this desire for merit is called punya bhanga. punya means merit. bhanga means breakage. so breaking through the merit. merit itself is fine but wanting more than what you deserve is like greed. greed for merit. desire for merit. so when you start doing things with an eye on the reward, you are actually causing yourself harm. because you are creating a new desire which was not there before. when you were doing your duty earlier, you didn't feel any need for a reward. now you are feeling a need for a reward. so you are creating a new desire. new desires create new problems. old desires continue to cause problems. so you are creating new problems for yourself. not only that, you are also making your spiritual progress slower. why? because you are still stuck in the same desire. you wanted to do good deeds to get a reward. instead of being free from all desires, you are still attached to one particular desire. so you are still stuck in samsara. samsara means the cycle of birth and death. in hinduism we call it samsara chakra. cycle of birth and death. we keep coming back into this world again and again until we become enlightened. until we realize our real nature as brahman. until we realize that i am not this body-mind personality. i am pure consciousness. until we realize that, we are trapped in samsara. trapped in the cycle of birth and death. so you are still trapped in samsara. stuck in samsara. how can you escape from samsara? by becoming free from all desires. all desires mean all desires. good desires, bad desires, neutral desires. all desires. becoming free from all desires. freedom from all desires is called nirvana. nirvana means freedom from all desires. so how does one achieve freedom from all desires? one way is by practicing non-dual meditation. dhyanam. turiyatita. non-dual meditation. another way is by performing selfless service. karma yoga. selfless action. service done without expectation of reward. without attachment to result. without attachment to outcome. just doing it for its own sake. for the joy of serving others. serving others without expecting anything in return. even if you expect nothing in return, still you are benefiting. you are helping others. helping others benefits you too. benefitting others helps you too. so you are benefited twice over. once by helping others and once by experiencing the joy of helping others. joy of helping others. there is another level beyond that. beyond the joy of helping others. there is the bliss of helping others. ananda of helping others. bliss of helping others. that's the highest level of karma yoga. where you are not even interested in the joy of helping others. you are not even interested in the satisfaction of having helped others. you are not even interested in the happiness of helping others. you are simply interested in helping others. period. end of story. nothing else matters. only helping others. that's the ultimate goal of karma yoga. ultimately, why should you help others? because they are suffering. they are unhappy. they are struggling. they are crying. they are hungry. they are thirsty. they are sick. they are dying. somebody has to help them. you are here. you are capable of helping them. you are responsible for helping them. you owe it to them. you cannot say i am not interested in helping others. i am not interested in their sufferings. i am not interested in their pain.
 </details>
+>Answer manually truncated at the end as the model phrases repititions started
 
->Truncated the response as then repititions started
-
-#### question - what is purpose of my life.
 <details>
   <summary>
-    Finetuned Model Answer
+    Sample Question 3 and Model's Answer
   </summary>
-swami: the first thing that comes up in your mind when you ask this question, what's the purpose of my life? i want to be happy and fulfilled. that's why we are here. we all have come into existence for one reason only, to experience happiness. and how do we experience happiness? by realizing our true nature as pure consciousness or brahman. so that's the ultimate goal. but then immediately another question arises. how does one realize one's true nature? you need some methodology. some technique. there are many techniques available. one can meditate. one can pray. one can study spiritual texts like the bhagavad gita, the upanishads, the talmud, whatever. all these things will help us on our journey towards self-realization. now, let me tell you something about this journey. it's not just one way. it's two ways. firstly, there is an inner journey which takes place within yourself where you try to understand who am i really? am i this body? no. then what am i? mind? no. then what am i? thoughts? no. then what am i? emotions? no. then what am i? consciousness itself? yes! that's the final destination. when you say i am consciousness, i am awareness, i am aware of everything around me. this is called self-enquiry. self-enquiry means asking oneself questions until you reach the truth. until you find out who you truly are. and once you know that, you become enlightened. once you know that, you become god realized. once you know that, you become liberated from suffering. once you know that, you become free forever. but remember, this journey has to be done with love. love for yourself. love for others. love for god. love for everybody. if you don't have love, you won't go far along this path. secondly, there is also an outer journey. an outer journey. what is that? service to humanity. serving people. helping them. loving them. caring for them. feeding them. clothing them. educating them. healing them. protecting them. these are all examples of service to humanity. not because you expect anything in return but simply because they exist. they deserve it. and if you serve them, you will feel good. you will feel happy. you will feel fulfilled. and ultimately, you will see god everywhere. in every person, in every creature,```
+Question - what is purpose of my life.
+Swami: the first thing that comes up in your mind when you ask this question, what's the purpose of my life? i want to be happy and fulfilled. that's why we are here. we all have come into existence for one reason only, to experience happiness. and how do we experience happiness? by realizing our true nature as pure consciousness or brahman. so that's the ultimate goal. but then immediately another question arises. how does one realize one's true nature? you need some methodology. some technique. there are many techniques available. one can meditate. one can pray. one can study spiritual texts like the bhagavad gita, the upanishads, the talmud, whatever. all these things will help us on our journey towards self-realization. now, let me tell you something about this journey. it's not just one way. it's two ways. firstly, there is an inner journey which takes place within yourself where you try to understand who am i really? am i this body? no. then what am i? mind? no. then what am i? thoughts? no. then what am i? emotions? no. then what am i? consciousness itself? yes! that's the final destination. when you say i am consciousness, i am awareness, i am aware of everything around me. this is called self-enquiry. self-enquiry means asking oneself questions until you reach the truth. until you find out who you truly are. and once you know that, you become enlightened. once you know that, you become god realized. once you know that, you become liberated from suffering. once you know that, you become free forever. but remember, this journey has to be done with love. love for yourself. love for others. love for god. love for everybody. if you don't have love, you won't go far along this path. secondly, there is also an outer journey. an outer journey. what is that? service to humanity. serving people. helping them. loving them. caring for them. feeding them. clothing them. educating them. healing them. protecting them. these are all examples of service to humanity. not because you expect anything in return but simply because they exist. they deserve it. and if you serve them, you will feel good. you will feel happy. you will feel fulfilled. and ultimately, you will see god everywhere. in every person, in every creature,```
 </details>
-
-> Truncated the response as then repititions started
+>Answer manually truncated at the end as the model phrases repititions started
 
 ## Updates
 **2023.10.04**
-- first version quick notes
-  - based off askswami qa videos format only
+- First release quick notes
   - scalable download and transcription of youtube videos (and metadata) list, creation of question-answer training dataset for llms, creation and testing of finetuned models
+    - testing based off askswami qa videos format only
   
 
 ## Features
@@ -168,17 +178,18 @@ python ./inference/model_inference.py --model_to_load avde_hf_llama2_13b_chat_10
 
 ## Todo
 - [x] initial readme.md writeup
-- [ ] repition of text towards the end
-- [ ] fix bug with ./inference/model_inference.py. as per current testing, the private version of code is producing results fine, but final finetuned version needs further testing.
-- [ ] cleanup configs for sft_wrapper.py and model_inference.py
-- [ ] refine questions/answers without manual intervention
-  - based on improved alignment from qa dataset
-  - fix (quite rare) speaker diarization issue
-  - drop irrelevant text (e.g., "next question please", "come forward and speak your name", etc.)
-- [ ] manage individual row length
-  - long answers refinement when multiple questions answered in a single long response
-- [ ] voice and tone cloning to hear responses in original voice
-  - current attempts using [bark](https://github.com/serp-ai/bark-with-voice-clone) are limited to short audio generation with reasonable but not complete success.
-- [ ] summarize responses using existing models to answer in generic styles
-- [ ] finetune on more generic youtube videos (lectures, qa at end of lectures)
-  - knowledge base sft
+- [ ] Pluggable data transformations
+- [ ] Fix repietition of model's response towards the end
+- [ ] Fix bug with ./inference/model_inference.py. as per current testing, the private version of code is producing results fine, but final finetuned version needs further testing.
+- [ ] Cleanup configs for sft_wrapper.py and model_inference.py
+- [ ] Refine questions/answers without manual intervention
+  - Based on improved alignment from qa dataset
+  - Fix (quite rare) speaker diarization issue
+  - Drop irrelevant text (e.g., "next question please", "come forward and speak your name", etc.)
+- [ ] Manage individual row length
+  - Long answers refinement when multiple questions answered in a single long response
+- [ ] Voice and tone cloning to hear responses in original voice
+  - Current attempts using [bark](https://github.com/serp-ai/bark-with-voice-clone) are limited to short audio generation with reasonable but not complete success.
+- [ ] Summarize responses using existing models to answer in generic styles
+- [ ] Finetune on more generic youtube videos (lectures, qa at end of lectures)
+  - Knowledge base SFT (supervised fine tuning)
