@@ -1,0 +1,76 @@
+inputs:
+  youtube_video_urls_dir: ./inputdir/
+
+data:
+  youtube_downloaded_videos_dir: ./datadir/download_videos/
+  inprocess_data_dir: ./datadir/intermediate_data/
+
+outputs:
+  output_dir: ./outputdir/outputs/
+
+ModelInferencingInputs:
+  Models:
+    hf_llama2_7b_chat:
+      model_name: meta-llama/Llama-2-7b-chat-hf
+    hf_llama2_13b_chat:
+      model_name: meta-llama/Llama-2-13b-chat-hf
+    hf_llama2_70b_chat:
+      model_name: meta-llama/Llama-2-70b-chat-hf
+    avde_hf_llama2_13b_chat_100steps_PAD:
+        model_name: "100_steps_PAD/final_merged_checkpoint"
+        tokenizer_name: meta-llama/Llama-2-13b-chat-hf
+        ft_models_dir: "./outputdir/avde_fintun_llama2/"  # Directory where FT models are being saved
+    avde_hf_llama2_13b_chat_10steps_PAD:
+        model_name: "10_steps_PAD/final_merged_checkpoint"
+        tokenizer_name: meta-llama/Llama-2-13b-chat-hf
+        ft_models_dir: "./outputdir/avde_fintun_llama2/"  # Directory where FT models are being saved
+
+  # Different types of inferencing
+  InferenceTypes:
+
+    # Test
+    TestModelingInference:
+      prompt_instr: This is just a test
+      inputs_extraction_method: prompt_from_transcripts_csv_fields
+      input_file: outputs/output_transcripts.csv
+      field1: text
+
+    ###################### THIS BELOW WORKS FOR ANSWERING FINE TUNED MODEL AND OTHER MODEL INFERENCING CALLS (SUMMARIZING) ############################
+    CreateTextResponses:
+      prompt_instr: 'Answer the Advaita Vedanta question. Avoid repeating phrases and intents in consecutive sentences more than twice. Seeker: '  # This worked best with 100steps_PAD trained model
+      max_length: 2048
+      input_file: ./testdir/sample_questions.csv
+      inputs_extraction_method: prompt_from_csv_get_answers
+      field1: id
+      field2: question
+      output_type:
+        - gentext
+      output_file: ./testdir/output/sample_questions_output.csv 
+
+    # transcripts_text_typegen:
+    TranscriptsTextTypegen:
+      prompt_instr: Without any deviation and formalities, always, always and always start your response with either phrase, 'The text is a question' or 'The text is an answer'. Based on the tone of the text, is this text that follows this phrase a question or an answer?
+      max_length: 4096
+      input_file: ./test_ft/sample_questions.csv # Testing
+      inputs_extraction_method: prompt_from_transcripts_csv_fields
+      field1: text
+      field2: dirname
+      field3: starttime_sec
+      output_file: ./test_ft/output/sample_questions.csv # Testing
+      output_file_format: CSV
+      output_type:
+        - gentext
+
+    ##################################################
+    CreateTextTokensLen:
+      prompt_instr: 'Answer the Advaita Vedanta question. Avoid repeating phrases and intents in consecutive sentences more than twice. Seeker: '  # This worked best with 100steps_PAD trained model
+      max_length: 2048
+      input_file: ./test_ft/sample_questions.csv
+      inputs_extraction_method: prompt_from_csv_get_answers
+      field1: text
+      field2: dirname
+      field3: starttime_sec
+      field4: aggregated_answer_text
+      output_type:
+        - gentext
+      output_file: ./test_ft/output/sample_questions_origmodel.csv 
