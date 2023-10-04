@@ -22,68 +22,69 @@ adve_vsny_ss models are not released publicly. One the code and workflow is rele
   <summary>
     Finetuned Model Answer
   </summary>
-Swami: So, what is the path of spirituality?. The path of spirituality.. It's not just one way.. There are many ways.. But they all lead to that one goal which we have been talking about.. That's why I said earlier, there may be different paths but only one destination.. And those paths are called Yogas.. Four Yogas.. They are called Yogas because they bring you closer to God or Brahman.. Now, these four Yogas are very interesting and beautifully described in the Gita.. First one is Bhakti Yoga.. Devotion.. You love God.. You want to know more about God.. You feel an attraction towards God.. You pray to God.. You worship God.. This is Bhakti Yoga.. Second one is Jnana Yoga.. Knowledge.. You want to know who am I?. Who is this universe?. How did it come into being?. What is my relationship with the universe?. These questions will take me onwards to knowing myself as Brahman.. Third one is Raja Yoga.. Meditation.. When you sit down quietly and try to focus your mind upon something like OM or AUM or any other mantra or even silence itself.. Then you can go deeper and deeper within yourself.. Into the depths of your own consciousness.. And when you do so, you begin to experience higher states of consciousness.. And then finally, the fourth one is Karma Yoga.. Action.. Service.. Selfless service.. Not doing anything for yourself.. Doing things for others.. Helping people around you.. Serving them.. All of these are Yogas.. They are paths leading us to our true nature.. To realize ourselves as Satchidananda.. Existence, Consciousness, Bliss.. We are that already.. But we don't know it.. We think we are limited.. We are not aware of our full potential.. So we need to follow some methodology to become aware of our full potential.. That's why we call them Yogas.. They help us to become aware of our full potential.. Thank you."
+Swami: so, what is the path of spirituality?. the path of spirituality.. it's not just one way.. there are many ways.. but they all lead to that one goal which we have been talking about.. that's why i said earlier, there may be different paths but only one destination.. and those paths are called yogas.. four yogas.. they are called yogas because they bring you closer to god or brahman.. now, these four yogas are very interesting and beautifully described in the gita.. first one is bhakti yoga.. devotion.. you love god.. you want to know more about god.. you feel an attraction towards god.. you pray to god.. you worship god.. this is bhakti yoga.. second one is jnana yoga.. knowledge.. you want to know who am i?. who is this universe?. how did it come into being?. what is my relationship with the universe?. these questions will take me onwards to knowing myself as brahman.. third one is raja yoga.. meditation.. when you sit down quietly and try to focus your mind upon something like om or aum or any other mantra or even silence itself.. then you can go deeper and deeper within yourself.. into the depths of your own consciousness.. and when you do so, you begin to experience higher states of consciousness.. and then finally, the fourth one is karma yoga.. action.. service.. selfless service.. not doing anything for yourself.. doing things for others.. helping people around you.. serving them.. all of these are yogas.. they are paths leading us to our true nature.. to realize ourselves as satchidananda.. existence, consciousness, bliss.. we are that already.. but we don't know it.. we think we are limited.. we are not aware of our full potential.. so we need to follow some methodology to become aware of our full potential.. that's why we call them yogas.. they help us to become aware of our full potential.. thank you."
 </details>
 
-#### Question: What is benefit of Karma Yoga?
+#### question: what is benefit of karma yoga?
 <details>
   <summary>
     Finetuned Model Answer
   </summary>
-Swami: So, what's the advantage of doing Karma Yoga? The first thing that comes to mind is you get good karma and bad karma gets wiped out. That's not true. You don't have to do anything for your own good or bad karma. It will come automatically. Whatever you are going to experience in this life, whatever you deserve, you will get it. And if you think I am doing something good so I must be getting some reward. No, no, no. If you are doing something good then you are fulfilling your duty. You are supposed to do it. But if you are thinking I am doing something good so I must be getting some reward. Then you are actually doing harm because now you are trying to get a reward instead of just doing your duty. Now you are trying to earn merits. Earning merits means you want more than what you already deserve. So you are trying to earn more than what you deserve. This desire for merit is called punya bhanga. Punya means merit. Bhanga means breakage. So breaking through the merit. Merit itself is fine but wanting more than what you deserve is like greed. Greed for merit. Desire for merit. So when you start doing things with an eye on the reward, you are actually causing yourself harm. Because you are creating a new desire which was not there before. When you were doing your duty earlier, you didn't feel any need for a reward. Now you are feeling a need for a reward. So you are creating a new desire. New desires create new problems. Old desires continue to cause problems. So you are creating new problems for yourself. Not only that, you are also making your spiritual progress slower. Why? Because you are still stuck in the same desire. You wanted to do good deeds to get a reward. Instead of being free from all desires, you are still attached to one particular desire. So you are still stuck in samsara. Samsara means the cycle of birth and death. In Hinduism we call it samsara chakra. Cycle of birth and death. We keep coming back into this world again and again until we become enlightened. Until we realize our real nature as Brahman. Until we realize that I am not this body-mind personality. I am pure consciousness. Until we realize that, we are trapped in samsara. Trapped in the cycle of birth and death. So you are still trapped in samsara. Stuck in samsara. How can you escape from samsara? By becoming free from all desires. All desires mean all desires. Good desires, bad desires, neutral desires. All desires. Becoming free from all desires. Freedom from all desires is called nirvana. Nirvana means freedom from all desires. So how does one achieve freedom from all desires? One way is by practicing non-dual meditation. Dhyanam. Turiyatita. Non-dual meditation. Another way is by performing selfless service. Karma Yoga. Selfless action. Service done without expectation of reward. Without attachment to result. Without attachment to outcome. Just doing it for its own sake. For the joy of serving others. Serving others without expecting anything in return. Even if you expect nothing in return, still you are benefiting. You are helping others. Helping others benefits you too. Benefitting others helps you too. So you are benefited twice over. Once by helping others and once by experiencing the joy of helping others. Joy of helping others. There is another level beyond that. Beyond the joy of helping others. There is the bliss of helping others. Ananda of helping others. Bliss of helping others. That's the highest level of Karma Yoga. Where you are not even interested in the joy of helping others. You are not even interested in the satisfaction of having helped others. You are not even interested in the happiness of helping others. You are simply interested in helping others. Period. End of story. Nothing else matters. Only helping others. That's the ultimate goal of Karma Yoga. Ultimately, why should you help others? Because they are suffering. They are unhappy. They are struggling. They are crying. They are hungry. They are thirsty. They are sick. They are dying. Somebody has to help them. You are here. You are capable of helping them. You are responsible for helping them. You owe it to them. You cannot say I am not interested in helping others. I am not interested in their sufferings. I am not interested in their pain.
+swami: so, what's the advantage of doing karma yoga? the first thing that comes to mind is you get good karma and bad karma gets wiped out. that's not true. you don't have to do anything for your own good or bad karma. it will come automatically. whatever you are going to experience in this life, whatever you deserve, you will get it. and if you think i am doing something good so i must be getting some reward. no, no, no. if you are doing something good then you are fulfilling your duty. you are supposed to do it. but if you are thinking i am doing something good so i must be getting some reward. then you are actually doing harm because now you are trying to get a reward instead of just doing your duty. now you are trying to earn merits. earning merits means you want more than what you already deserve. so you are trying to earn more than what you deserve. this desire for merit is called punya bhanga. punya means merit. bhanga means breakage. so breaking through the merit. merit itself is fine but wanting more than what you deserve is like greed. greed for merit. desire for merit. so when you start doing things with an eye on the reward, you are actually causing yourself harm. because you are creating a new desire which was not there before. when you were doing your duty earlier, you didn't feel any need for a reward. now you are feeling a need for a reward. so you are creating a new desire. new desires create new problems. old desires continue to cause problems. so you are creating new problems for yourself. not only that, you are also making your spiritual progress slower. why? because you are still stuck in the same desire. you wanted to do good deeds to get a reward. instead of being free from all desires, you are still attached to one particular desire. so you are still stuck in samsara. samsara means the cycle of birth and death. in hinduism we call it samsara chakra. cycle of birth and death. we keep coming back into this world again and again until we become enlightened. until we realize our real nature as brahman. until we realize that i am not this body-mind personality. i am pure consciousness. until we realize that, we are trapped in samsara. trapped in the cycle of birth and death. so you are still trapped in samsara. stuck in samsara. how can you escape from samsara? by becoming free from all desires. all desires mean all desires. good desires, bad desires, neutral desires. all desires. becoming free from all desires. freedom from all desires is called nirvana. nirvana means freedom from all desires. so how does one achieve freedom from all desires? one way is by practicing non-dual meditation. dhyanam. turiyatita. non-dual meditation. another way is by performing selfless service. karma yoga. selfless action. service done without expectation of reward. without attachment to result. without attachment to outcome. just doing it for its own sake. for the joy of serving others. serving others without expecting anything in return. even if you expect nothing in return, still you are benefiting. you are helping others. helping others benefits you too. benefitting others helps you too. so you are benefited twice over. once by helping others and once by experiencing the joy of helping others. joy of helping others. there is another level beyond that. beyond the joy of helping others. there is the bliss of helping others. ananda of helping others. bliss of helping others. that's the highest level of karma yoga. where you are not even interested in the joy of helping others. you are not even interested in the satisfaction of having helped others. you are not even interested in the happiness of helping others. you are simply interested in helping others. period. end of story. nothing else matters. only helping others. that's the ultimate goal of karma yoga. ultimately, why should you help others? because they are suffering. they are unhappy. they are struggling. they are crying. they are hungry. they are thirsty. they are sick. they are dying. somebody has to help them. you are here. you are capable of helping them. you are responsible for helping them. you owe it to them. you cannot say i am not interested in helping others. i am not interested in their sufferings. i am not interested in their pain.
 </details>
-_Truncated the response as then repititions started_
 
-#### Question - what is purpose of my life.
+>Truncated the response as then repititions started
+
+#### question - what is purpose of my life.
 <details>
   <summary>
     Finetuned Model Answer
   </summary>
-Swami: The first thing that comes up in your mind when you ask this question, what's the purpose of my life? I want to be happy and fulfilled. That's why we are here. We all have come into existence for one reason only, to experience happiness. And how do we experience happiness? By realizing our true nature as pure consciousness or Brahman. So that's the ultimate goal. But then immediately another question arises. How does one realize one's true nature? You need some methodology. Some technique. There are many techniques available. One can meditate. One can pray. One can study spiritual texts like the Bhagavad Gita, the Upanishads, the Talmud, whatever. All these things will help us on our journey towards self-realization. Now, let me tell you something about this journey. It's not just one way. It's two ways. Firstly, there is an inner journey which takes place within yourself where you try to understand who am I really? Am I this body? No. Then what am I? Mind? No. Then what am I? Thoughts? No. Then what am I? Emotions? No. Then what am I? Consciousness itself? Yes! That's the final destination. When you say I am consciousness, I am awareness, I am aware of everything around me. This is called self-enquiry. Self-enquiry means asking oneself questions until you reach the truth. Until you find out who you truly are. And once you know that, you become enlightened. Once you know that, you become God realized. Once you know that, you become liberated from suffering. Once you know that, you become free forever. But remember, this journey has to be done with love. Love for yourself. Love for others. Love for God. Love for everybody. If you don't have love, you won't go far along this path. Secondly, there is also an outer journey. An outer journey. What is that? Service to humanity. Serving people. Helping them. Loving them. Caring for them. Feeding them. Clothing them. Educating them. Healing them. Protecting them. These are all examples of service to humanity. Not because you expect anything in return but simply because they exist. They deserve it. And if you serve them, you will feel good. You will feel happy. You will feel fulfilled. And ultimately, you will see God everywhere. In every person, in every creature,```
+swami: the first thing that comes up in your mind when you ask this question, what's the purpose of my life? i want to be happy and fulfilled. that's why we are here. we all have come into existence for one reason only, to experience happiness. and how do we experience happiness? by realizing our true nature as pure consciousness or brahman. so that's the ultimate goal. but then immediately another question arises. how does one realize one's true nature? you need some methodology. some technique. there are many techniques available. one can meditate. one can pray. one can study spiritual texts like the bhagavad gita, the upanishads, the talmud, whatever. all these things will help us on our journey towards self-realization. now, let me tell you something about this journey. it's not just one way. it's two ways. firstly, there is an inner journey which takes place within yourself where you try to understand who am i really? am i this body? no. then what am i? mind? no. then what am i? thoughts? no. then what am i? emotions? no. then what am i? consciousness itself? yes! that's the final destination. when you say i am consciousness, i am awareness, i am aware of everything around me. this is called self-enquiry. self-enquiry means asking oneself questions until you reach the truth. until you find out who you truly are. and once you know that, you become enlightened. once you know that, you become god realized. once you know that, you become liberated from suffering. once you know that, you become free forever. but remember, this journey has to be done with love. love for yourself. love for others. love for god. love for everybody. if you don't have love, you won't go far along this path. secondly, there is also an outer journey. an outer journey. what is that? service to humanity. serving people. helping them. loving them. caring for them. feeding them. clothing them. educating them. healing them. protecting them. these are all examples of service to humanity. not because you expect anything in return but simply because they exist. they deserve it. and if you serve them, you will feel good. you will feel happy. you will feel fulfilled. and ultimately, you will see god everywhere. in every person, in every creature,```
 </details>
 
--  Truncated the response as then repititions started...
+> Truncated the response as then repititions started
 
-## Updates
+## updates
 **2023.10.04**
-- First version quick notes
-  - Based off AskSwami QA videos format only
-  - Scalable download and transcription of YouTube videos (and metadata) list, creation of question-answer training dataset for LLMs, creation and testing of finetuned models
+- first version quick notes
+  - based off askswami qa videos format only
+  - scalable download and transcription of youtube videos (and metadata) list, creation of question-answer training dataset for llms, creation and testing of finetuned models
   
 
-## Features
-- Automatic downloads a set of YouTube AskSwami QA videos using their urls (and corresponding video descriptions) using [PyTube](https://github.com/pytube/pytube) - a lightweight, dependency-free Python library (and command-line utility) for downloading YouTube videos. There were some newer versions that needed to be installed in conda enviroment to help work with newer YouTube API.
-  - Parallel transcription of videos with [WhisperX](https://github.com/m-bain/whisperX) - a fast automatic speech recognition with word-level timestamps and multi-speaker diarization.
-  - Creation of a Question-Answer dataset through a series of video description and video transcriptions transformations
-  - Create finetuned [Llama-2-7b-chat-hf](https://huggingface.co/blog/llama2#demo) models. Note that to download and use Meta's Llama models, both HuggingFace and Meta's forms need to be filled out. Users are provided access to the repository once both forms are filled after few hours. The model size (7B, 13B or 70B) that can be finetuned depends upon the GPU power, quantization techniques, etc. With permissions from YouTube video owners, one can relesae the dataset on public forums (HuggingFace, etc.)
-  - Deploy and query finetuned models on/using one or multiple platforms/frameworks (E.g., [HuggingFace](https://huggingface.co/models), [Oobabooga](https://github.com/oobabooga/text-generation-webui))
+## features
+- automatic downloads a set of youtube askswami qa videos using their urls (and corresponding video descriptions) using [pytube](https://github.com/pytube/pytube) - a lightweight, dependency-free python library (and command-line utility) for downloading youtube videos. there were some newer versions that needed to be installed in conda enviroment to help work with newer youtube api.
+  - parallel transcription of videos with [whisperx](https://github.com/m-bain/whisperx) - a fast automatic speech recognition with word-level timestamps and multi-speaker diarization.
+  - creation of a question-answer dataset through a series of video description and video transcriptions transformations
+  - create finetuned [llama-2-7b-chat-hf](https://huggingface.co/blog/llama2#demo) models. note that to download and use meta's llama models, both huggingface and meta's forms need to be filled out. users are provided access to the repository once both forms are filled after few hours. the model size (7b, 13b or 70b) that can be finetuned depends upon the gpu power, quantization techniques, etc. with permissions from youtube video owners, one can relesae the dataset on public forums (huggingface, etc.)
+  - deploy and query finetuned models on/using one or multiple platforms/frameworks (e.g., [huggingface](https://huggingface.co/models), [oobabooga](https://github.com/oobabooga/text-generation-webui))
 
-## Installation
+## installation
 
-These installation and usage instructions have been tested on a dual-4090 AMD-workstation (powered by 5975wx CPU)
+these installation and usage instructions have been tested on a dual-4090 amd-workstation (powered by 5975wx cpu)
 
-#### Setup conda environment
+#### setup conda environment
 ```bash
 conda create -n your_env_name python=3.10
 conda activate your_env_name
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
-#### Download and setup adve_vsny_ss repository
+#### download and setup adve_vsny_ss repository
 ```bash
 git clone git@github.com:devvidhani/adve_vsny_ss.git
 ```
-#### Install requirements.txt. Note that it is superflous, but complete for entire workflow (pytube+patches, whisperx, ffmpeg, trl, etc.)
+#### install requirements.txt. note that it is superflous, but complete for entire workflow (pytube+patches, whisperx, ffmpeg, trl, etc.)
 ```bash
 pip install -r requirements.txt
 ```
-#### Setup input, data, output and test directories in adve_vsny_ss directories
+#### setup input, data, output and test directories in adve_vsny_ss directories
 ```bash
 cd adve_vsny_ss
 mkdir -p ./inputdir/ ./datadir/download_videos/ ./datadir/intermediate_data/ ./outputdir/outputs/
 ```
 
-#### Setup configs
+#### setup configs
   - setup configs/config.yaml file
 ```bash
 inputs:
@@ -103,81 +104,81 @@ conda_env: your_env_name
 conda_activate_path: <path_to_miniconda3>/bin/activate
 ```
 
-#### Models use setup
-- Fill Meta Llama2 downlaod and usage forms on HuggingFace and Meta's website to download HuggingFace models
-- Set up HuggingFace [UAT (User Access Token)](https://huggingface.co/settings/tokens)
+#### models use setup
+- fill meta llama2 downlaod and usage forms on huggingface and meta's website to download huggingface models
+- set up huggingface [uat (user access token)](https://huggingface.co/settings/tokens)
 
-## Usage (Python)
-The finetuned model can be passed the list of questions that would be answered sequentially by the model uploaded. The python script usage is described below in workflow section's last step.
-## Workflow: Build your model
+## usage (python)
+the finetuned model can be passed the list of questions that would be answered sequentially by the model uploaded. the python script usage is described below in workflow section's last step.
+## workflow: build your model
 
-The adve_vsny_ss model(s) are finetuned Meta's Llama2 chat model based off HuggingFace's versions of Llama2.
+the adve_vsny_ss model(s) are finetuned meta's llama2 chat model based off huggingface's versions of llama2.
 
-1. Follow installation instructions to setup the environment
+1. follow installation instructions to setup the environment
 
-2. Set environment var
+2. set environment var
 ```bash
-export PYTHONPATH=.:$PYTHONPATH
+export pythonpath=.:$pythonpath
 ```
 
-4. Download Youtube Videos data and metadata
-  - in configs/config.yaml inputdir, create a file which contains URLs of Youtube to be downloaded (yturls.txt)
+4. download youtube videos data and metadata
+  - in configs/config.yaml inputdir, create a file which contains urls of youtube to be downloaded (yturls.txt)
 ```bash
 python ./datamgmt/yt_download.py --files_with_urls yturls.txt
 ```
 
-5. Convert Youtube mp4 files to mp3 and extract audio using whisperx (genreates audio.vtt) in parallel on all GPUs
+5. convert youtube mp4 files to mp3 and extract audio using whisperx (genreates audio.vtt) in parallel on all gpus
 ```bash
 python ./datamgmt/run_parallel_whisperx_on_all_gpus.py
 ```
 
-6. Read each audio.vtt above and consolidate continuous same speaker's timestamps into a single timestamp for that speaker
+6. read each audio.vtt above and consolidate continuous same speaker's timestamps into a single timestamp for that speaker
 ```bash
 python ./datamgmt/consolidate_audiovtt_speakers.vtt
 ```
 
-7. Extract questions from description.txt downloaded along with youtube videos. Luckily those description files have questions with timestamps. despite a complex flow, one (of 39) video's question extraction didnt work. There are some heuristics - e.g., QA begins in sentence after the work timestamp (or time-stamp); multi-line questions are collated, questions with parts with numbering like (a), (b), etc. are separated with same timestamp
-   These are the fields ['starttime', 'endtime', 'starttime_sec', 'endtime_sec', 'speaker', 'text', 'text_length', 'text_type']
+7. extract questions from description.txt downloaded along with youtube videos. luckily those description files have questions with timestamps. despite a complex flow, one (of 39) video's question extraction didnt work. there are some heuristics - e.g., qa begins in sentence after the work timestamp (or time-stamp); multi-line questions are collated, questions with parts with numbering like (a), (b), etc. are separated with same timestamp
+   these are the fields ['starttime', 'endtime', 'starttime_sec', 'endtime_sec', 'speaker', 'text', 'text_length', 'text_type']
 ```bash
 python ./datamgmt/extract_questions_timestamps_from_description.py
 ```
 
-8. Generate CSV of transcripts from consolidate_audiovtt_speakers with these fields ['starttime', 'endtime', 'starttime_sec', 'endtime_sec', 'speaker', 'text', 'text_length', 'text_type']
+8. generate csv of transcripts from consolidate_audiovtt_speakers with these fields ['starttime', 'endtime', 'starttime_sec', 'endtime_sec', 'speaker', 'text', 'text_length', 'text_type']
 ```bash
 python ./datamgmt/extract_speakers_transcripts_timestamps_from_vtt.py
 ```
 
-9. For now, merge questions/answers around main speakers' around the timestamp from description question file
+9. for now, merge questions/answers around main speakers' around the timestamp from description question file
 ```bash
 python ./datamgmt/create_question_answer_dataset.py
 ```
 
-10. Create finetuned model
-- Sample model creation for 100 steps using special tokenizer padding "<PAD>"
+10. create finetuned model
+- sample model creation for 100 steps using special tokenizer padding "<pad>"
 ```bash
-python ./train/SFT_wrapper.py --output_dir ./outputdir/avde_fintun_llama2/100_steps_PAD --hf_token <your_hf_token> --max_steps 100
+python ./train/sft_wrapper.py --output_dir ./outputdir/avde_fintun_llama2/100_steps_pad --hf_token <your_hf_token> --max_steps 100
 ```
 
-11. Execute finetuned model
-- Sample execution
+11. execute finetuned model
+- sample execution
 ```bash
-python ./inference/model_inference.py --model_to_load avde_hf_llama2_13b_chat_100steps_PAD --modelinferencingclass CreateTextResponses
+python ./inference/model_inference.py --model_to_load avde_hf_llama2_13b_chat_100steps_pad --modelinferencingclass createtextresponses
 ```
-- Different inferencing procedures can be creating using same framework for model_inference.py. The framework can be extended by defining input data format, input data processing, exact input inferencing action, output data processing, etc.
+- different inferencing procedures can be creating using same framework for model_inference.py. the framework can be extended by defining input data format, input data processing, exact input inferencing action, output data processing, etc.
 
-## TODO
-- [x] Initial README.md writeup
-- [ ] Repition of text towards the end
-- [ ] Fix bug with ./inference/model_inference.py. As per current testing, the private version of code is producing results fine, but final finetuned version needs further testing.
-- [ ] Cleanup configs for SFT_wrapper.py and model_inference.py
-- [ ] Refine questions/answers without manual intervention
-  - Based on improved alignment from QA dataset
-  - Fix (quite rare) speaker diarization issue
-  - Drop irrelevant text (E.g., "next question please", "come forward and speak your name", etc.)
-- [ ] Manage individual row length
-  - Long answers refinement when multiple questions answered in a single long response
-- [ ] Voice and tone cloning to hear responses in original voice
-  - Current attempts using [Bark](https://github.com/serp-ai/bark-with-voice-clone) are limited to short audio generation with reasonable but not complete success.
-- [ ] Summarize responses using existing models to answer in generic styles
-- [ ] Finetune on more generic YouTube videos (lectures, QA at end of lectures)
-  - Knowledge base SFT
+## todo
+- [x] initial readme.md writeup
+- [ ] repition of text towards the end
+- [ ] fix bug with ./inference/model_inference.py. as per current testing, the private version of code is producing results fine, but final finetuned version needs further testing.
+- [ ] cleanup configs for sft_wrapper.py and model_inference.py
+- [ ] refine questions/answers without manual intervention
+  - based on improved alignment from qa dataset
+  - fix (quite rare) speaker diarization issue
+  - drop irrelevant text (e.g., "next question please", "come forward and speak your name", etc.)
+- [ ] manage individual row length
+  - long answers refinement when multiple questions answered in a single long response
+- [ ] voice and tone cloning to hear responses in original voice
+  - current attempts using [bark](https://github.com/serp-ai/bark-with-voice-clone) are limited to short audio generation with reasonable but not complete success.
+- [ ] summarize responses using existing models to answer in generic styles
+- [ ] finetune on more generic youtube videos (lectures, qa at end of lectures)
+  - knowledge base sft
