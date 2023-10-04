@@ -45,46 +45,46 @@ swami: the first thing that comes up in your mind when you ask this question, wh
 
 > Truncated the response as then repititions started
 
-## updates
+## Updates
 **2023.10.04**
 - first version quick notes
   - based off askswami qa videos format only
   - scalable download and transcription of youtube videos (and metadata) list, creation of question-answer training dataset for llms, creation and testing of finetuned models
   
 
-## features
+## Features
 - automatic downloads a set of youtube askswami qa videos using their urls (and corresponding video descriptions) using [pytube](https://github.com/pytube/pytube) - a lightweight, dependency-free python library (and command-line utility) for downloading youtube videos. there were some newer versions that needed to be installed in conda enviroment to help work with newer youtube api.
   - parallel transcription of videos with [whisperx](https://github.com/m-bain/whisperx) - a fast automatic speech recognition with word-level timestamps and multi-speaker diarization.
   - creation of a question-answer dataset through a series of video description and video transcriptions transformations
   - create finetuned [llama-2-7b-chat-hf](https://huggingface.co/blog/llama2#demo) models. note that to download and use meta's llama models, both huggingface and meta's forms need to be filled out. users are provided access to the repository once both forms are filled after few hours. the model size (7b, 13b or 70b) that can be finetuned depends upon the gpu power, quantization techniques, etc. with permissions from youtube video owners, one can relesae the dataset on public forums (huggingface, etc.)
   - deploy and query finetuned models on/using one or multiple platforms/frameworks (e.g., [huggingface](https://huggingface.co/models), [oobabooga](https://github.com/oobabooga/text-generation-webui))
 
-## installation
+## Installation
 
 these installation and usage instructions have been tested on a dual-4090 amd-workstation (powered by 5975wx cpu)
 
-#### setup conda environment
+#### Setup conda environment
 ```bash
 conda create -n your_env_name python=3.10
 conda activate your_env_name
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
-#### download and setup adve_vsny_ss repository
+#### Download and setup adve_vsny_ss repository
 ```bash
 git clone git@github.com:devvidhani/adve_vsny_ss.git
 ```
-#### install requirements.txt. note that it is superflous, but complete for entire workflow (pytube+patches, whisperx, ffmpeg, trl, etc.)
+#### Install requirements.txt. note that it is superflous, but complete for entire workflow (pytube+patches, whisperx, ffmpeg, trl, etc.)
 ```bash
 pip install -r requirements.txt
 ```
-#### setup input, data, output and test directories in adve_vsny_ss directories
+#### Setup input, data, output and test directories in adve_vsny_ss directories
 ```bash
 cd adve_vsny_ss
 mkdir -p ./inputdir/ ./datadir/download_videos/ ./datadir/intermediate_data/ ./outputdir/outputs/
 ```
 
-#### setup configs
+#### Setup configs
   - setup configs/config.yaml file
 ```bash
 inputs:
@@ -104,13 +104,13 @@ conda_env: your_env_name
 conda_activate_path: <path_to_miniconda3>/bin/activate
 ```
 
-#### models use setup
+#### Models use setup
 - fill meta llama2 downlaod and usage forms on huggingface and meta's website to download huggingface models
 - set up huggingface [uat (user access token)](https://huggingface.co/settings/tokens)
 
-## usage (python)
+## Usage (python)
 the finetuned model can be passed the list of questions that would be answered sequentially by the model uploaded. the python script usage is described below in workflow section's last step.
-## workflow: build your model
+## Workflow: build your model
 
 the adve_vsny_ss model(s) are finetuned meta's llama2 chat model based off huggingface's versions of llama2.
 
@@ -166,7 +166,7 @@ python ./inference/model_inference.py --model_to_load avde_hf_llama2_13b_chat_10
 ```
 - different inferencing procedures can be creating using same framework for model_inference.py. the framework can be extended by defining input data format, input data processing, exact input inferencing action, output data processing, etc.
 
-## todo
+## Todo
 - [x] initial readme.md writeup
 - [ ] repition of text towards the end
 - [ ] fix bug with ./inference/model_inference.py. as per current testing, the private version of code is producing results fine, but final finetuned version needs further testing.
